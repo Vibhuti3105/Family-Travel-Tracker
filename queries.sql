@@ -13,9 +13,9 @@ CREATE TABLE contact_detail (
 
 -- Data --
 INSERT INTO student (first_name, last_name)
-VALUES ('Angela', 'Yu');
+VALUES ('Ananth', 'Vibhuti');
 INSERT INTO contact_detail (id, tel, address)
-VALUES (1, '+123456789', '123 App Brewery Road');
+VALUES (1, '8789699015', 'Delhi');
 
 -- Join --
 SELECT * 
@@ -60,7 +60,7 @@ CREATE TABLE enrollment (
 
 -- Data --
 INSERT INTO student (first_name, last_name)
-VALUES ('Jack', 'Bauer');
+VALUES ('Ananth', 'Vibhuti');
 
 INSERT INTO class (title)
 VALUES ('English Literature'), ('Maths'), ('Physics');
@@ -109,7 +109,7 @@ user_id INTEGER REFERENCES users(id)
 );
 
 INSERT INTO users (name, color)
-VALUES ('Angela', 'teal'), ('Jack', 'powderblue');
+VALUES ('vibhuti', 'teal'), ('divya', 'powderblue');
 
 INSERT INTO visited_countries (country_code, user_id)
 VALUES ('FR', 1), ('GB', 1), ('CA', 2), ('FR', 2 );
